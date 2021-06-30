@@ -1,0 +1,17 @@
+.Users {
+  padding: 24px;
+  text-align: center;
+
+  &__list {
+    margin-top: 24px;
+  }
+
+  &__title {
+    font-weight: bold;
+  }
+
+  &__button {
+    text-align: right;
+    margin-top: 24px;
+  }
+}

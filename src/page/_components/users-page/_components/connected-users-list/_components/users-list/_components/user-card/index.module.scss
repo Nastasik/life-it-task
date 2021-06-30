@@ -1,0 +1,16 @@
+.User-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  
+  &__info {
+    margin: 0 1rem 2rem 1rem;
+  }
+  
+  &__avatar {
+    display: inline-block;
+    max-width: 40%;
+  }
+}

@@ -1,0 +1,36 @@
+.Login-form {
+  position: relative;
+  display: block;
+  background: white;
+  border-radius: 4px;
+  width: 80%;
+  max-width: 400px;
+  padding: 12px 24px 24px;
+  margin: 24px auto;
+
+  &__submit-error {
+    color: red;
+  }
+
+  &__title {
+    font-weight: bold;
+  }
+
+  &__label {
+   color: grey;
+  }
+
+  &__field {
+    margin-bottom: 18px;
+  }
+
+  &__input {
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-top: 8px;
+    outline: none;
+    box-sizing: border-box;
+  }
+}
